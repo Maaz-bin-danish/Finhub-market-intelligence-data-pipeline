@@ -32,9 +32,9 @@ The repository includes a 1 minute 16 second walkthrough of the final Power BI m
 
 ---
 
-# 📌 What is FINHUB?
+# 📌 What is FINHUB-Market-intelligence?
 
-**FINHUB** is an end-to-end data engineering project that collects financial market data from the **Finnhub API**, stores the raw data in **Amazon S3**, orchestrates the pipeline using **Apache Airflow**, loads the data into **Snowflake**, transforms it through **Bronze, Silver and Gold layers**, and finally exposes analytics through a **Power BI dashboard**.
+**FINHUB-Market-intelligence** is an end-to-end data engineering project that collects financial market data from the **Finnhub API**, stores the raw data in **Amazon S3**, orchestrates the pipeline using **Apache Airflow**, loads the data into **Snowflake**, transforms it through **Bronze, Silver and Gold layers**, and finally exposes analytics through a **Streamlit+plotly dashboard**.
 
 The main purpose of the project is to demonstrate how raw external API data can be converted into structured, analytics-ready business intelligence using a modern cloud data engineering architecture.
 
